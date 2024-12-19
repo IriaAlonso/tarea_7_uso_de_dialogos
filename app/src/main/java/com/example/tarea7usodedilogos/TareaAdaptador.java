@@ -47,9 +47,9 @@ public class TareaAdaptador extends RecyclerView.Adapter<TareaAdaptador.TareaVie
             showBottomSheetDialog(tarea);
             return true; // Indica que el evento fue consumido
         });
-        if(tarea.getEstado().isEmpty()){
-            holder.estadoTextVIew.setText("Pendiente");
-        }
+
+        holder.estadoTextVIew.setText("Pendiente");
+
 
     }
 
