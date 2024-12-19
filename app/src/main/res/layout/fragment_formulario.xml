@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Spinner para seleccionar la asignatura -->
+    <Spinner
+        android:id="@+id/asignaturaSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Asignatura"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Campo para la descripción -->
+    <EditText
+        android:id="@+id/descripcionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripción"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Campo para seleccionar la fecha -->
+    <TextView
+        android:id="@+id/fechaTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fecha: No seleccionada"
+        android:layout_marginBottom="8dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="@android:drawable/editbox_background" />
+
+    <!-- Campo para seleccionar la hora -->
+    <TextView
+        android:id="@+id/horaTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hora: No seleccionada"
+        android:layout_marginTop="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="@android:drawable/editbox_background" />
+
+
+    <!-- Botón Aceptar -->
+    <Button
+        android:id="@+id/aceptarButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aceptar"
+        android:layout_marginTop="16dp" />
+
+    <!-- Botón Cancelar -->
+    <Button
+        android:id="@+id/cancelarButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancelar"
+        android:layout_marginTop="8dp" />
+</LinearLayout>
